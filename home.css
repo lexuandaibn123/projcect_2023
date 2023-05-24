@@ -1,0 +1,120 @@
+body {
+  margin: 0px !important;
+}
+
+.banner {
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+#b1 {
+  background-image: url("./images/Ảnh\ quảng\ cáo\ xinh\ xinh\ \(2\).jpg");
+  background-size: 100% 110%;
+  background-position: top;
+  text-align: center;
+}
+#b2 {
+  background-image: url("./images/MVP\ AI\ vẽ\ \(1\).jpg");
+  background-position: center;
+  background-size: 100% 150%;
+}
+#b3 {
+  background-color: #594b42;
+  display: flex;
+}
+.header1 {
+  position: relative;
+  height: 15vh;
+  width: 100%;
+  overflow: hidden;
+}
+.item {
+  padding-top: 3.5vh;
+  font-size: 2.4vh;
+  width: 30%;
+  display: inline-block;
+}
+.about_us,
+.contact {
+  cursor: pointer;
+}
+.logo {
+  position: absolute;
+  right: -3vh;
+  top: -3vh;
+}
+#logo {
+  width: 20vh;
+}
+.coffuel {
+  margin-top: 20vh;
+  font-family: "Inria Serif", serif;
+  font-size: 12vh;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1vh;
+}
+hr {
+  width: 55vw;
+}
+.content1 {
+  color: white;
+  font-family: "Inria Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 66px;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+}
+.content1_footer {
+  font-family: "Jomolhari";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 51px;
+  color: #ffffff;
+  margin-top: -1vh;
+}
+button {
+  color: white;
+  background: #654e44;
+  font-family: "Jomolhari";
+  font-size: 2.2vh;
+  width: 15vw;
+  height: 5vh;
+  margin-top: 8vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  cursor: pointer;
+}
+.text_content3 {
+  width: 35%;
+}
+.image3 {
+  width: 65% !important;
+  position: relative;
+  overflow: hidden;
+}
+.img3 {
+  position: absolute;
+  height: 100vh;
+  border-radius: 100%;
+  right: -10vh;
+  bottom: -5vh;
+  overflow: auto;
+}
+.header-text-3 {
+  margin-left: 18vh;
+  color: white;
+  margin-bottom: 10vh;
+  margin-top: 8vh;
+  font-size: 4vh;
+}
+.text-3 {
+  margin-left: 18vh;
+  color: white;
+  margin-bottom: 5vh;
+  font-size: 4vh;
+  width: 70%;
+}
